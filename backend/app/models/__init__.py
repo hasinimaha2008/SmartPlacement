@@ -1,0 +1,39 @@
+from app.models.models import (
+    User,
+    StudentProfile,
+    Skill,
+    StudentSkill,
+    StudentProject,
+    StudentCertification,
+    StudentExperience,
+    Role,
+    RoleSkill,
+    LearningResource,
+    Question,
+    AssessmentAttempt,
+    MockInterview,
+    Roadmap,
+    RoadmapItem,
+    ReadinessSnapshot,
+    generate_uuid
+)
+
+__all__ = [
+    "User",
+    "StudentProfile",
+    "Skill",
+    "StudentSkill",
+    "StudentProject",
+    "StudentCertification",
+    "StudentExperience",
+    "Role",
+    "RoleSkill",
+    "LearningResource",
+    "Question",
+    "AssessmentAttempt",
+    "MockInterview",
+    "Roadmap",
+    "RoadmapItem",
+    "ReadinessSnapshot",
+    "generate_uuid"
+]
